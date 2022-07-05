@@ -1,0 +1,17 @@
+
+h
+java:S2184L"FCast one of the operands of this multiplication operation to a "long".(´Î”Úşÿÿÿÿ8¥¥óíœ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÛ¿Öşÿÿÿÿ8‘®»íœ0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Ôç¾üÿÿÿÿ8‘®»íœ0
+T
+java:S11350"2Complete the task associated to this TODO comment.(´Â´†ÿÿÿÿÿ8“®»íœ0
+[
+java:S47199"9Replace charset name argument with StandardCharsets.UTF_8(³Èí¿ıÿÿÿÿ8”®»íœ0
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(¨÷ê8•®»íœ0
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(¿Çğª8–®»íœ0
+]	java:S125X"<This block of commented-out lines of code should be removed.(¤öÛğûÿÿÿÿ8—®»íœ0
+Z	java:S106d"9Replace this use of System.out or System.err by a logger.(ñçŠ“øÿÿÿÿ8—®»íœ0
+Y
+java:S1128"<Remove this unused import 'io.netty.channel.ChannelHandler'.(­ûßì8˜®»íœ0
+e
+java:S1128"HRemove this unused import 'io.netty.util.concurrent.EventExecutorGroup'.(»—âŞ8˜®»íœ0

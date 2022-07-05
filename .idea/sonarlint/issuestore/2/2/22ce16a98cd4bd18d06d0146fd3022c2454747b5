@@ -1,0 +1,11 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(êÊú™
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²–Éşÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(½ùôŠ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(†ë£³úÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+U
+java:S47193":Replace Charset.forName() call with StandardCharsets.UTF_8(¦ò€·ûÿÿÿÿ
+P
+java:S47194":Replace Charset.forName() call with StandardCharsets.UTF_8(˜À¾„
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(å›ïÕúÿÿÿÿ
