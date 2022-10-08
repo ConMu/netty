@@ -1,6 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ç÷8¥¼ºâœ0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Î Â‹8¥¼ºâœ0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¢ÛŒæ8¦¼ºâœ0
-R
-java:S1128	"0Remove this unused import 'java.nio.ByteBuffer'.(¿¢×±úÿÿÿÿ8§¼ºâœ0
