@@ -41,7 +41,7 @@ public class NettyServer {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             //可以使用一个集合管理 SocketChannel， 再推送消息时，可以将业务加入到各个channel 对应的 NIOEventLoop 的 taskQueue 或者 scheduleTaskQueue
                             System.out.println("客户socketchannel hashcode=" + socketChannel.hashCode());
-                            socketChannel.pipeline().addLast(new NettyServerHandler());
+                            socketChannel.pipeline().addLast(new NettyServerHandler2());
                         }
                     }); // 给我们的workerGroup 的 EventLoop 对应的管道设置处理器
 

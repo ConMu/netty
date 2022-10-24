@@ -38,7 +38,20 @@ public class RobotServer {
                     .childHandler(new ChildChanelHandler());
 
             // 绑定端口, 同步等待成功
+            //绑定一个端口并且同步,生成了一个ChannelFuture对象
+            //启动服务器(并绑定端口)
             ChannelFuture future = bootstrap.bind(port).sync();
+            //给future注册监听器，监控我们关心的事件
+            future.addListener(new ChannelFutureListener() {
+                @Override
+                public void operationComplete(ChannelFuture channelFuture) throws Exception {
+                    if (channelFuture.isSuccess()) {
+                        System.out.println("监听端口6668成功");
+                    } else {
+                        System.out.println("监听端口6668失败");
+                    }
+                }
+            });
             // 等待服务端端口关闭
             future.channel().closeFuture().sync();
         } finally {
